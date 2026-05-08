@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/bilocation",
     "maintainers": [
       {
@@ -16,111 +16,323 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "bilocation",
     "name": "Bilocation",
-    "aliases": [],
-    "category": "|_PSYCHIC_PHENOMENA_|",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Multilocation" },
+      { "name": "Doublewalker" },
+      { "name": "Vardøger", "language": "Norwegian", "meaning": "'Pre-walker' — Norse folkloric premonitory double" },
+      { "name": "Etiäinen", "language": "Finnish", "meaning": "Premonitory bilocation in Finnish folklore" }
     ],
-    "status": "documented",
+    "category": "PSYCHIC_PHENOMENA",
+    "subcategory": "Anomalous spatial duplication",
+    "tags": [
+      "psychic",
+      "religious",
+      "catholic",
+      "siddhi",
+      "miraculous",
+      "doppelganger"
+    ],
+    "status": "unverified",
     "description": {
-      "summary": "Bilocation is the alleged **paranormal or miraculous ability to be in two different places at the same time**.",
-      "full": "Bilocation is the alleged **paranormal or miraculous ability to be in two different places at the same time**. Unlike astral projection or out-of-body experiences where consciousness travels, bilocation involves the complete physical body (or a perfect physical duplicate) manifesting in two locations simultaneously. Bilocation appears most prominently in **Catholic hagiography**, with numerous saints reportedly possessing this ability. However, similar claims exist in other religious traditions, mystical practices, and paranormal accounts. **Scientifically, bilocation is considered impossible** as it violates fundamental physical laws, yet reports persist throughout history and across cultures. The phenomenon raises profound questions about consciousness, physical reality, identity, and the nature of religious miracles. Reports range from **witnessed accounts by multiple observers** to more ambiguous experiences that might represent other phenomena (doppelgangers, visions, psychological projection)."
+      "summary": "The alleged psychic or miraculous ability to be — or to appear to be — physically present in two distinct places at the same time. Reported in Catholic hagiography, Hindu and Buddhist siddhi literature, and parapsychology.",
+      "full": "Bilocation (also called multilocation) is the alleged ability of a person, or rarely an object, to be present in two distinct physical places simultaneously. The concept appears across many religious and esoteric traditions. In the Catholic Church, bilocation is recorded as a charism of the saints, with classic cases attributed to Saint Anthony of Padua, Saint Francis Xavier, Saint Martin de Porres, the Venerable María de Ágreda, and — most famously in the 20th century — Saint Padre Pio of Pietrelcina. In Hindu and Buddhist traditions, bilocation is one of the siddhis, ascribed in the Yoga Sutras of Patanjali. Parallel concepts appear in Theosophy, Sufism, Jewish mysticism, and shamanism. Catholic theologians distinguish between substantial bilocation (the saint physically present in two places) and apparitional bilocation (a non-substantial visible double appearing while the saint remains in one place). Skeptics, including Joe Nickell and the parapsychology critic Susan Blackmore, note that no case of bilocation has been verified under controlled conditions and that all evidence is anecdotal."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "From Latin bi- ('two') + locus ('place').",
+      "meaning": "'Two-placed' — the state of being in two places at once.",
+      "first_use": "Latin theological usage from the late medieval / early modern period; English from at least the 19th century."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_PSYCHIC_PHENOMENA_|",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "PSYCHIC_PHENOMENA",
+      "type": "Anomalous spatial phenomenon",
+      "subtype": "Duplication of presence",
+      "variant": "Religious / mystical / parapsychological"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "doppelganger", "name": "Doppelgänger", "relationship": "related", "description": "Germanic 'double-walker' — apparition of a living person, often as an omen" },
+      { "id": "out-of-body-experiences", "name": "Out-of-body experience", "relationship": "related", "description": "Subjective sense of separation from the body" },
+      { "id": "remote-viewing", "name": "Remote viewing", "relationship": "related", "description": "Claimed psychic perception of distant locations" },
+      { "id": "crisis-apparition", "name": "Crisis apparition", "relationship": "related", "description": "Reported appearance of a person at the moment of their death or distress" },
+      { "id": "psychic-phenomena", "name": "Psychic phenomena (siddhis)", "relationship": "superset", "description": "Yogic and parapsychological category to which bilocation belongs" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": [],
+      "features": [
+        { "feature": "Simultaneous appearance in two places", "description": "The defining feature: a witness reports the subject in one location while other witnesses see them, contemporaneously, somewhere else.", "frequency": "always" },
+        { "feature": "Distance independence", "description": "The two appearances may be on different continents (e.g. Padre Pio cases) and at distances that make conventional travel impossible in the time available.", "frequency": "common" },
+        { "feature": "Sometimes accompanied by trance or ecstasy", "description": "The subject in their 'home' location is often reported in deep prayer or trance during the bilocation.", "frequency": "common" },
+        { "feature": "Verbal exchanges with the second presence", "description": "Hagiographies often record meaningful conversations between the saint's distant double and witnesses.", "frequency": "common" }
+      ],
+      "morphology": "The 'second presence' is variably described as fully solid (substantial bilocation) or as a luminous or translucent figure (apparitional bilocation)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Substantial bilocation", "description": "The subject is reported as physically present in both places; objects can be touched and exchanged.", "frequency": "rare", "evidence_level": "folklore" },
+      { "ability": "Apparitional bilocation", "description": "The subject's double appears as an apparition while the body remains in one place.", "frequency": "occasional", "evidence_level": "reported" },
+      { "ability": "Aerial bilocation / aerial transport", "description": "Some accounts (María de Ágreda) extend bilocation to claimed missionary visits across oceans.", "frequency": "rare", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["Religious or contemplative settings", "Times of crisis or imminent death", "Mission and diplomatic contexts"],
+      "patterns": [
+        "Often associated with deep prayer, trance, or mystical ecstasy",
+        "Frequently reported around the time of crises affecting the witnesses",
+        "Many cases involve the figure delivering a message or aid"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Globally distributed in religious and folkloric tradition: Catholic Europe and Latin America (Marian apparitions, saintly bilocations), Hindu and Buddhist Asia (yogic siddhis), Norse and Finnish Europe (vardøger, etiäinen), and modern parapsychology.",
+      "continents": ["Europe", "Asia", "Americas"],
+      "countries": ["Italy", "Spain", "Portugal", "Peru", "Mexico", "India", "Norway", "Finland"],
+      "regions": [
+        "Mediterranean Catholicism",
+        "Iberian and Ibero-American Catholicism",
+        "South Asian yogic traditions",
+        "Northern European folkloric traditions"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Antiquity",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Pythagorean tradition (Pythagoras reportedly seen in Metapontum and Tauromenium simultaneously)"
+      },
+      "peak_activity_periods": [
+        { "period": "13th–17th centuries", "description": "Era of the most extensively documented Catholic bilocation cases (Anthony of Padua, María de Ágreda, Joseph of Cupertino)" },
+        { "period": "20th century", "description": "Padre Pio bilocation reports and parapsychological investigations" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pythagorean / classical Greek hagiography, Catholic mystical theology, Hindu yogic siddhi tradition, and Northern European folkloric doubles (vardøger, etiäinen, doppelgänger).",
+      "earliest_accounts": "Classical reports of Pythagoras seen in two cities at once; later Apollonius of Tyana traditions.",
+      "folklore_connections": "Closely connected to doppelgänger and crisis-apparition lore in Europe; to siddhi traditions in South Asia."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "0540 BCE", "event": "Pythagoras reportedly seen at Metapontum (Italy) and Tauromenium (Sicily) on the same day", "significance": "Earliest classical bilocation report", "source": "Diogenes Laertius, Lives of the Eminent Philosophers (3rd century CE)" },
+      { "date": "1227", "event": "Saint Anthony of Padua reportedly bilocates between Limoges (France) and Lisbon (Portugal) during Holy Thursday", "significance": "Classic medieval Catholic case", "source": "Liber Miraculorum and later hagiographies" },
+      { "date": "1620", "event": "Spanish nun María de Ágreda reportedly bilocates from her convent in Spain to evangelise the Jumano people of New Mexico", "significance": "Famous early modern case, with Spanish missionary cross-references", "source": "Benavides Memorial (1630)" },
+      { "date": "1774-09-22", "event": "Saint Alphonsus Liguori reportedly bilocates from Arezzo to be at the deathbed of Pope Clement XIV in Rome", "significance": "Often-cited 18th-century case", "source": "Catholic Encyclopedia" },
+      { "date": "1947", "event": "Padre Pio reportedly bilocates to Uruguay to attend Archbishop Antonio María Barbieri", "significance": "Most extensively reported 20th-century case", "source": "Pasquale di Cicco testimony; Catholic biographies of Padre Pio" },
+      { "date": "1968-09-23", "event": "Death of Padre Pio at San Giovanni Rotondo; canonised by Pope John Paul II in 2002", "significance": "Modern Catholic figure most associated with bilocation", "source": "Vatican Acta" }
+    ],
+    "modern_era": "Bilocation remains a feature of Catholic hagiography and folk Catholic devotion (especially around Padre Pio shrines), and a fringe topic in parapsychology. Mainstream science treats the claim as unverified and most likely an artefact of misidentification, deliberate mystification, or coincidence."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
-      "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "date_range": { "earliest": "Antiquity", "latest": "20th century" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "bilocation-1227-anthony-of-padua",
+        "name": "Saint Anthony of Padua at Limoges and Lisbon",
+        "date": { "value": "1227-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Limoges (France) and Lisbon (Portugal)",
+          "country": "France / Portugal",
+          "region": "Western Europe",
+          "coordinates": { "latitude": 45.83, "longitude": 1.26, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Members of two Franciscan communities (per hagiography)"], "credibility_factors": ["Multiple-witness tradition reported in later Franciscan sources"] },
+        "description": "While preaching at Holy Thursday liturgy in Limoges, Anthony reportedly recalled a missed monastic obligation in another church across town (some traditions say in Lisbon), knelt, became motionless, and was simultaneously seen at the second site reading the appointed lesson before disappearing.",
+        "credibility": { "rating": "low", "factors": ["Hagiographic source", "Detail varies between traditions"], "notes": "Foundational Catholic bilocation episode." },
+        "sources": ["Liber Miraculorum (medieval Franciscan)", "Wikipedia, Bilocation"],
+        "featured": true
+      },
+      {
+        "id": "bilocation-1620-maria-de-agreda",
+        "name": "Sor María de Jesús de Ágreda — Jumano missionary bilocations",
+        "date": { "value": "1620-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Convent of the Conceptionists, Ágreda, Spain — to the Jumano people in present-day New Mexico/Texas",
+          "country": "Spain / United States (then New Spain)",
+          "region": "Castile / American Southwest",
+          "coordinates": { "latitude": 41.85, "longitude": -1.92, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Franciscan missionaries (Alonso de Benavides)", "Jumano people (per Spanish report)"], "credibility_factors": ["Franciscan corroboration via the 1630 Benavides Memorial"] },
+        "description": "Sor María, a Spanish Conceptionist nun who never left her cloister, reportedly experienced more than 500 mystical bilocations to evangelise the Jumano people of New Mexico between 1620 and 1623. Franciscan friars in the region, led by Alonso de Benavides, reported encountering Indigenous people who claimed to have been instructed by 'the Lady in Blue', whose description matched Sor María.",
+        "credibility": { "rating": "low", "factors": ["Single-source colonial documentation", "Theological motivation for the report", "Sor María herself later expressed uncertainty"], "notes": "One of the most cited and most studied bilocation cases." },
+        "sources": ["Benavides, A. de (1630), Memorial", "Wikipedia, María de Ágreda"],
+        "featured": true
+      },
+      {
+        "id": "bilocation-1774-alphonsus-liguori",
+        "name": "Alphonsus Liguori at the deathbed of Pope Clement XIV",
+        "date": { "value": "1774-09-22", "precision": "exact" },
+        "location": {
+          "description": "Arezzo (Tuscany) — Rome",
+          "country": "Italy",
+          "region": "Tuscany / Lazio",
+          "coordinates": { "latitude": 43.46, "longitude": 11.88, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Liguori himself, attendants, and (per hagiography) papal household"], "credibility_factors": ["Multiple ecclesiastical witnesses cited in canonisation record"] },
+        "description": "Saint Alphonsus Liguori reportedly fell into a long trance while preparing for Mass at Arezzo and, on awaking, said that he had been at the deathbed of Pope Clement XIV in Rome (about 200 km away). Witnesses at the papal court reportedly identified Liguori among those present.",
+        "credibility": { "rating": "low", "factors": ["Hagiographic record", "Cited in Liguori's canonisation cause"], "notes": "Frequently cited Counter-Reformation case." },
+        "sources": ["Tannoia, A. (1798), Vita di Sant'Alfonso Maria de'Liguori", "Catholic Encyclopedia"],
+        "featured": true
+      },
+      {
+        "id": "bilocation-1947-padre-pio",
+        "name": "Padre Pio in San Giovanni Rotondo and Montevideo",
+        "date": { "value": "1947-01-01", "precision": "approximate" },
+        "location": {
+          "description": "San Giovanni Rotondo (Italy) — Montevideo (Uruguay)",
+          "country": "Italy / Uruguay",
+          "region": "Apulia / Río de la Plata",
+          "coordinates": { "latitude": 41.71, "longitude": 15.73, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Archbishop Antonio María Barbieri", "Friars at San Giovanni Rotondo (per Capuchin testimony)"], "credibility_factors": ["Senior ecclesiastical witness (Barbieri)"] },
+        "description": "Padre Pio is reported to have appeared at the bedside of the future Cardinal Antonio María Barbieri's friend in Uruguay while remaining at the Capuchin friary in San Giovanni Rotondo. Barbieri later identified Pio when he visited Italy.",
+        "credibility": { "rating": "low", "factors": ["Devotional source", "No verifiable contemporary documentation"], "notes": "The signature 20th-century bilocation case." },
+        "sources": ["Catholic biographies of Padre Pio", "Wikipedia, Padre Pio"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "bilocation-evidence-benavides-1630",
+        "type": "ecclesiastical report",
+        "name": "Benavides Memorial (1630)",
+        "date": "1630",
+        "description": "Spanish Franciscan Alonso de Benavides's report to King Philip IV and the Holy See documenting Indigenous accounts of 'the Lady in Blue' in New Mexico, identified with Sor María de Ágreda.",
+        "status": "disputed",
+        "analysis": "Foundational document for the María de Ágreda bilocation case; viewed by historians as evidence of cross-cultural communication and missionary self-fashioning rather than as proof of bilocation.",
+        "source": "Benavides, A. de (1630), Memorial"
+      },
+      {
+        "id": "bilocation-evidence-yoga-sutras",
+        "type": "scripture",
+        "name": "Yoga Sutras of Patanjali — siddhi pāda",
+        "date": "c. 400 CE",
+        "description": "Sanskrit text describing siddhis attainable through yogic practice, including powers conventionally interpreted as bilocation.",
+        "status": "verified",
+        "analysis": "Locus classicus for the South Asian formulation of bilocation as a yogic ability.",
+        "source": "Patanjali, Yoga Sutras III"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Charism of the saints (Catholic)",
+        "description": "Bilocation is a divinely granted gift (charism) by which God permits a saint to appear simultaneously in two places, either substantially or apparitionally.",
+        "proponents": ["Catholic mystical theology", "Hagiographers (Tannoia, Bonaventura, Capuchin biographers)"],
+        "evidence_cited": ["Hagiographic compilations", "Canonisation processes (Anthony of Padua, Liguori, Padre Pio)"]
+      },
+      {
+        "name": "Yogic siddhi",
+        "description": "Bilocation is one of the powers attainable by an advanced practitioner of yoga, listed among the siddhis in Patanjali's Yoga Sutras.",
+        "proponents": ["Patanjali", "Modern yoga teachers"],
+        "evidence_cited": ["Yoga Sutras III; Bhagavata Purana"]
+      },
+      {
+        "name": "Astral projection / etheric double",
+        "description": "Theosophical and modern occult traditions explain bilocation as projection of an etheric double (or astral body) while the physical body remains in place.",
+        "proponents": ["H. P. Blavatsky", "Sylvan Muldoon"],
+        "evidence_cited": ["Theosophical literature; OBE first-person reports"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Misidentification and coincidence",
+        "description": "Many cases reduce on examination to mistaken identity by witnesses, telescoped chronology in retelling, or coincidence between independent events.",
+        "proponents": ["Joe Nickell", "Benjamin Radford"],
+        "evidence_cited": ["Joe Nickell's investigations of Padre Pio cases"]
+      },
+      {
+        "name": "Hagiographic accretion",
+        "description": "Long after a saint's death, additional bilocation episodes accrete to the biography, expressing the community's theology of the saint's continuing presence.",
+        "proponents": ["Hippolyte Delehaye (Bollandist)", "modern hagiography studies"],
+        "evidence_cited": ["Comparative analysis of medieval miracle collections"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "No controlled evidence",
+        "description": "Despite a century of parapsychological interest, no case of bilocation has been replicated or evidenced under controlled conditions; all evidence is anecdotal.",
+        "proponents": ["Susan Blackmore", "Joe Nickell"],
+        "evidence_cited": ["Absence of replicable parapsychology results", "Skeptical reviews of Padre Pio testimony"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Catholic hagiography (Anthony of Padua, María de Ágreda, Liguori, Padre Pio)",
+        "Hindu and Buddhist siddhi traditions",
+        "Norse vardøger and Finnish etiäinen",
+        "Germanic doppelgänger lore"
+      ],
+      "stories": [
+        "The Lady in Blue (Sor María de Ágreda) and the Jumano",
+        "Padre Pio in Uruguay",
+        "Pythagoras at Metapontum and Tauromenium"
+      ],
+      "beliefs": "Bilocation continues to be cited in popular Catholic devotion, particularly around the Padre Pio cult; it is treated metaphorically in modern psychic and New Age literature."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Mystical City of God — María de Ágreda (1670)",
+        "Padre Pio: The True Story — C. Bernard Ruffin (1991)",
+        "Lives of the Saints (multiple editions, e.g. Butler)"
+      ],
+      "film_tv": [
+        "Padre Pio (2022) — Abel Ferrara",
+        "Numerous Catholic documentaries on saintly miracles"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "'Bilocation' as a frequent metaphor in literature and modern psychic-themed fiction"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Joe Nickell", "affiliation": "Committee for Skeptical Inquiry", "contribution": "Skeptical investigation of Catholic miracle claims, including bilocation", "period": "1980s–present" },
+      { "name": "Susan Blackmore", "affiliation": "University of Plymouth (psychology, retired)", "contribution": "Skeptical analysis of out-of-body and related anomalous experiences", "period": "1980s–present" }
+    ],
+    "organizations": [
+      { "name": "Committee for Skeptical Inquiry", "url": "https://skepticalinquirer.org", "focus": "Skeptical investigation of paranormal claims" }
+    ],
+    "ongoing_studies": "No active mainstream scientific research; bilocation remains a topic of theological reflection in Catholicism and a sometimes-cited topic in fringe parapsychology."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-bilocation", "type": "website", "title": "Bilocation", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bilocation", "accessed": "2026-05-07" },
+    { "id": "agreda-mystical-city", "type": "book", "title": "Mystical City of God", "authors": ["María de Ágreda"], "publication": "(posthumous)", "date": "1670" },
+    { "id": "tannoia-1798", "type": "book", "title": "Vita di Sant'Alfonso Maria de'Liguori", "authors": ["Antonio Tannoia"], "publication": "Naples", "date": "1798" },
+    { "id": "ruffin-1991", "type": "book", "title": "Padre Pio: The True Story", "authors": ["C. Bernard Ruffin"], "publication": "Our Sunday Visitor", "date": "1991", "isbn": "978-0879734305" },
+    { "id": "patanjali-yoga-sutras", "type": "book", "title": "Yoga Sutras of Patanjali", "authors": ["Patanjali"], "publication": "(classical Sanskrit)", "date": "c. 400" }
+  ]
 }

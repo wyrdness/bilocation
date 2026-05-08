@@ -1,36 +1,17 @@
-# Bilocation - Source Documentation
+# Sources & References — Bilocation
 
-## Overview
+Bibliography compiled from `api.json`. To add a source, edit `api.json` and regenerate.
 
-This document provides comprehensive source documentation for Bilocation. The entry includes 64+ sources from academic, historical, cultural, and research contexts.
+## Books
 
-## Source Categories
+- María de Ágreda. (1670). *Mystical City of God*. (posthumous)
+- Antonio Tannoia. (1798). *Vita di Sant'Alfonso Maria de'Liguori*. Naples
+- C. Bernard Ruffin. (1991). *Padre Pio: The True Story*. Our Sunday Visitor. ISBN: 978-0879734305
+- Patanjali. (c. 400). *Yoga Sutras of Patanjali*. (classical Sanskrit)
 
-### Primary Sources
-- Original texts and historical documents
-- Religious texts and manuscripts
-- Cultural repositories and oral traditions
+## Websites
 
-### Academic Sources
-- Peer-reviewed research
-- University press publications
-- Scholarly monographs
-
-### Cultural Resources
-- Indigenous knowledge keepers
-- Cultural organizations
-- Community documentation
-
-### Contemporary Research
-- Modern investigations
-- Digital archives
-- Ongoing scholarly work
-
-## Full Bibliography
-
-[Detailed sources listed in main README.md file]
+- *Bilocation*. Wikipedia. <https://en.wikipedia.org/wiki/Bilocation>
 
 ---
-
-*Last Updated: 2026-01-14*  
-*Version: 1.0.0*
+_Auto-generated from `api.json`._
